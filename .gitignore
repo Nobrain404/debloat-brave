@@ -1,0 +1,27 @@
+# Binários do Projeto
+debloat-brave
+debloat-brave.exe
+
+# Binários genéricos e extensões de sistema
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Arquivos de Backup (Evita subir seus dados do Brave)
+*.bak
+
+# Ferramentas e Testes do Go
+coverage.*
+*.coverprofile
+go.work
+go.work.sum
+
+# Pastas de Editor e Sistema (VSCodium/Linux)
+.vscode/
+.idea/
+.DS_Store
+.env
