@@ -23,8 +23,25 @@ Script em Go para otimização do navegador Brave através da edição do arquiv
 
 ### Rodar sem compilar
 
-```bash
+```Bash
+# Executa o script diretamente
 go run main.go
 
-###
+
 ```
+### Como Compilar (Linux)
+``` Bash
+# Gera o binário com o nome do projeto
+go build -o debloat-brave main.go
+chmod +x debloat-brave
+./debloat-brave
+
+```
+
+#### Como Compilar (Windows)
+``` PowerShell
+# Gera o executável para Windows
+go build -o debloat-brave.exe main.go
+.\debloat-brave.exe
+
+``` 
